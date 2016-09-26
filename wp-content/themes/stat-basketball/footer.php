@@ -15,6 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
+		dfgdfg
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'stat-basketball' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'stat-basketball' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'stat-basketball' ), 'stat-basketball', '<a href="http://underscores.me/" rel="designer">Christian Bryant</a>' ); ?>
