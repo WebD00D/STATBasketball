@@ -892,3 +892,40 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+/* STAT BASKETBALL */
+
+img{
+	height: auto;
+    max-width: 100%;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+#stat-navigation{
+	position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-right: 1px solid #eeeeee;
+    width: 100px;
+    background-color: white;
+    z-index: 4;
+}
+
+#menu-icon-container{
+	margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
+#menu-icon-container i{
+	font-size:30px;
+}
+
+#menu-icon-container a{
+	color:black;
+}
