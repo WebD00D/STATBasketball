@@ -909,7 +909,7 @@ img{
     left: 0;
     height: 100%;
     border-right: 1px solid #eeeeee;
-    width: 100px;
+    width: 150px;
     background-color: white;
     z-index: 4;
 }
@@ -923,9 +923,60 @@ img{
 }
 
 #menu-icon-container i{
-	font-size:30px;
+	font-size:40px;
 }
 
 #menu-icon-container a{
 	color:black;
+}
+
+#logo-container{
+	margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 5%;
+}
+
+.page-wrapper{
+	margin:0 auto;
+	margin-left:200px;
+	max-width: 1200px;
+
+}
+
+@media (max-width: 784px){
+
+
+	#stat-navigation{
+	position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-right: 1px solid #eeeeee;
+    width: 100px;
+    background-color: white;
+    z-index: 4;
+	}
+
+	#logo-container{
+	margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 7%;
+    }
+
+    #menu-icon-container i{
+	font-size:30px;
+	}
+
+	.page-wrapper{
+	margin:0 auto;
+	margin-left:150px;
+	max-width: 1200px;
+	}
+
+
+
 }
