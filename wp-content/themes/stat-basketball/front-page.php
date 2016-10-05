@@ -19,7 +19,8 @@
 <div class="row">
 	<div class="col s12">
 		<div class="home-page--hero">
-					<img src="./wp-content/themes/stat-basketball/img/StatBasketball.png">
+					<img class="jumbo-image" src="./wp-content/themes/stat-basketball/img/StatBasketball.png">
+					<img class="quote" src="./wp-content/themes/stat-basketball/img/quote.png">
 					<div class="headline-container">
 							<h1 >IF YOU WANT TO GO FAST GO ALONE, <BR> IF YOU WANT TO GO FAR GO TOGETHER.</h1>
 							<hr class='stat-hr'>

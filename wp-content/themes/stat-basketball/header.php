@@ -43,13 +43,16 @@
 		<div id="stat-navigation">
 
 		<div id="logo-container">
-
 			<img src="./wp-content/themes/stat-basketball/img/concept1.png">
 		</div>
 
 		<div id="menu-icon-container">
 			<a href="#"><i class="material-icons">menu</i></a>
 		</div>
+
+    <div id="menu-bottom-text">
+      #STATTHAT
+    </div>
 
 
 		</div>

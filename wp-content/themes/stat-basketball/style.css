@@ -903,21 +903,28 @@ object {
 	font-style: normal;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size:80px;
+	font-size:100px;
 	margin-top:0px;
 	margin-bottom: 30px;
+	transition:all .3s ease-in-out;
 }
 
 .home-page--hero{
 	position: relative;
 }
 
+.quote{
+	position: absolute;
+	top: 0;
+  height:55%;
+	margin-top: 19%;
+}
 
-.home-page--hero img{
+.jumbo-image{
 	margin-top:100px;
 	width:80%;
 	margin-left:20%;
-	opacity: 0.7;
+	opacity: 0.6;
 }
 
 .home-page--hero .headline-container{
@@ -960,6 +967,7 @@ img{
     width: 150px;
     background-color: white;
     z-index: 4;
+		transition:all .3s ease-in-out;
 }
 
 #menu-icon-container{
@@ -967,7 +975,7 @@ img{
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 40%;
 }
 
 #menu-icon-container i{
@@ -986,6 +994,22 @@ img{
     top: 5%;
 }
 
+#menu-bottom-text{
+   	margin: 0 auto;
+		text-align: center;
+		width: 100%;
+		position: absolute;
+		top: 70%;
+		transform: rotate(90deg);
+		font-family: "acumin-pro-extra-condensed",sans-serif;
+		font-style: normal;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size:24px;
+		color:#404040;
+
+}
+
 .page-wrapper{
 	margin:0 auto;
 	margin-left:200px;
@@ -993,8 +1017,53 @@ img{
 
 }
 
-@media (max-width: 784px){
 
+/* MEDIA QUERIES */
+
+@media (max-width:1300px){
+
+
+	.home-page--hero h1{
+		font-size:90px;
+	}
+
+}
+
+@media (max-width:1200px){
+
+
+	.home-page--hero h1{
+		font-size:80px;
+	}
+
+}
+
+@media (max-width:1100px){
+
+
+	.home-page--hero h1{
+		font-size:70px;
+	}
+
+}
+
+@media (max-width:1000px){
+
+	.home-page--hero h1{
+		font-size:60px;
+	}
+
+}
+
+@media (max-width:900px){
+
+	.home-page--hero h1{
+		font-size:50px;
+	}
+
+}
+
+@media (max-width: 784px){
 
 	#stat-navigation{
 	position: fixed;
@@ -1021,10 +1090,81 @@ img{
 
 	.page-wrapper{
 	margin:0 auto;
-	margin-left:150px;
+	margin-left:125px;
 	max-width: 1200px;
 	}
 
+}
 
+@media (max-width:700px){
+
+	.jumbo-image{
+		margin-top:50px;
+	}
+
+	.home-page--hero h1{
+		font-size:40px;
+	}
+
+}
+
+@media (max-width:600px){
+
+	.headline-container{
+		margin-left:20px;
+	}
+
+	.quote{
+		height:40%;
+		left:10px;
+	}
+
+	.page-wrapper{
+		margin-left:100px;
+	}
+
+	.jumbo-image{
+		margin-left:0px;
+		width:100%;
+	}
+
+	.headline-container a{
+		font-size: 25px;
+		background-color:#D87A23;
+		color:white;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:5px;
+		padding-bottom: 10px;
+		transition:all .3s ease-in-out;
+	}
+
+		.headline-container a:hover{
+				background-color:#404040;
+		}
+
+	.home-page--hero h1{
+		font-size:35px;
+		color:white;
+	}
+
+}
+
+/*  POSSIBLE STYLE FOR LEARN MORE BUTTON ON MOBILE
+position: absolute;
+top: 70%;
+right: 0;
+margin-right: 20px;
+width: 100%;
+
+*/
+
+
+@media (max-width:525px){
+
+
+	.home-page--hero h1{
+		font-size:30px;
+	}
 
 }
