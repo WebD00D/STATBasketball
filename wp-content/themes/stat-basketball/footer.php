@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer page-wrapper" role="contentinfo">
+	<footer id="colophon" class="site-footer page-wrapper" role="contentinfo ">
 		<div class="site-info">
 		Christian Bryant Productions.
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'stat-basketball' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'stat-basketball' ), 'WordPress' ); ?></a>
@@ -31,4 +31,3 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
 </html>
-
