@@ -909,6 +909,52 @@ object {
 	transition:all .3s ease-in-out;
 }
 
+#core-values h2{
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size:70;
+	margin-top:0px;
+	margin-bottom: 30px;
+	transition:all .3s ease-in-out;
+}
+
+#core-values h3{
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size:80px;
+	margin-top:0px;
+	margin-bottom: 10px;
+	transition:all .3s ease-in-out;
+	color:black;
+}
+
+#core-values h5{
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size:20px;
+	color:#808080;
+	margin-top:0px;
+	margin-bottom: 30px;
+	transition:all .3s ease-in-out;
+}
+
+.corevalue-block{
+	text-align: center;
+	padding-top:15px !important;
+	padding-bottom: 15px !important;
+	background-color:#252525;
+}
+
+.abouth1{
+	font-size:60px !important;
+}
+
 .quotesection--hero h2{
 	font-family: "acumin-pro-extra-condensed",sans-serif;
 	font-style: normal;
@@ -966,6 +1012,11 @@ object {
 	width:80%;
 	margin-left:20%;
 	opacity: 0.6;
+}
+
+.aboutJumboImage{
+	width:70%;
+	margin-left:30%;
 }
 
 .home-page--hero .headline-container{
@@ -1066,12 +1117,41 @@ img{
 	margin:0 auto;
 	margin-left:200px;
 	max-width: 1600px;
-
-}
-
-body{
+	margin-right:50px;
 	overflow-x: hidden;
+
 }
+
+.aboutpage-text{
+
+ font-family: 'roboto';
+ font-style: normal;
+ font-weight: 300;
+ font-size:22px;
+ color:black;
+ column-count: 2;
+ column-gap: 60px;
+ margin-top:50px;
+
+}
+
+.aboutpage-text p {
+	margin-top:0px;
+}
+
+.meet-the-founder p{
+	font-family: 'roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size:22px;
+  color:black;
+  margin-top:0px;
+}
+
+.aboutsection{
+	margin-bottom:50px;
+}
+
 
 section {
 	margin-bottom:250px;
@@ -1292,6 +1372,98 @@ section {
 	opacity: 0.9;
 }
 
+.full-screen-menu{
+	position: fixed;
+	height: 100%;
+	padding-top: 20px !important;
+	width: 100%;
+	background: rgba(01,01,01,0.9);
+	top: 0;
+	left: -150%;
+	bottom: 0;
+	right: 0;
+	z-index: 3;
+	overflow: auto;
+	margin-left:150px;
+
+}
+
+.site-footer h4{
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size:25px;
+  margin-bottom: 0px;
+	margin-top:0px;
+	color:#808080;
+	transition:all .3s ease-in-out;
+}
+
+.site-footer{
+	margin-left:150px;
+}
+
+#contact-page{
+	margin-top:5%;
+}
+
+#contact-page h1{
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+font-style: normal;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 100px;
+margin-top: 0px;
+margin-bottom: 10px;
+transition: all .3s ease-in-out;
+}
+
+#contact-page h5{
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+font-size: 45px;
+margin-top: 0px;
+margin-bottom: 10px;
+transition: all .3s ease-in-out;
+}
+
+#contact-page h6{
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+font-style: normal;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 30px;
+margin-top: 0px;
+margin-bottom: 5px;
+transition: all .3s ease-in-out;
+}
+
+.contact-form{
+	margin-top:50px;
+}
+
+.statInput{
+	width:50% !important;
+	background-color:#eeeeee !important;
+	border:none !important;
+	border-radius: 0px !important;
+	font-family: "acumin-pro-extra-condensed",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 30px !important;
+	transition: all .3s ease-in-out;
+	margin-bottom:15px;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+	border-bottom:1px solid #ccc;
+    box-shadow:none;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width:1600px){
@@ -1329,6 +1501,11 @@ section {
 
 @media (max-width:1300px){
 
+
+	#core-values h3{
+		font-size:60px;
+	}
+
 	.upcomingEvents--hero h4{
 		line-height: 50px;
 		font-size: 45px;
@@ -1351,6 +1528,12 @@ section {
 	.home-page--hero h1{
 		font-size:90px;
 	}
+
+	.abouth1{
+		font-size:50px !important;
+	}
+
+
 
 	.quotesection--hero h2{
 		font-size:55px;
@@ -1378,10 +1561,18 @@ section {
 
 @media (max-width:1200px){
 
+	.statInput{
+		width:75% !important;
+	}
 
 	.home-page--hero h1{
 		font-size:80px;
 	}
+
+	.abouth1{
+		font-size:45px !important;
+	}
+
 
 	.quotesection--hero h2{
 		font-size:40px;
@@ -1411,6 +1602,24 @@ section {
 
 @media (max-width:1100px){
 
+	.aboutpage-text{
+		column-count: 1;
+	}
+
+.aboutsection{
+	margin-bottom:10px;
+}
+
+.aboutpage-text p{
+	font-size:20px;
+}
+
+.meet-the-founder p{
+
+  font-size:20px;
+
+
+}
 
 	.featured-post{
 		min-height:300px;
@@ -1433,6 +1642,11 @@ section {
 		font-size:70px;
 	}
 
+	.abouth1{
+		font-size:40px !important;
+	}
+
+
 	#homepage--aboutus h2{
 		font-size:60px;
 	}
@@ -1453,6 +1667,11 @@ section {
 	#homepage--aboutus h2{
 		font-size:50px;
 	}
+
+	.abouth1{
+		font-size:35px !important;
+	}
+
 
 	.upcomingEvents--hero h4{
 		line-height: 40px;
@@ -1485,16 +1704,42 @@ section {
 
 @media (max-width:900px){
 
+	.aboutpage-text p{
+		font-size:17px;
+	}
+
+	#core-values h3{
+		font-size:40px;
+	}
+
+	.meet-the-founder p{
+
+	  font-size:17px;
+	}
+	.aboutsection{
+		margin-top:75px !important;
+	}
+
 	.home-page--hero h1{
 		font-size:50px;
 	}
+
+	.abouth1{
+		font-size:32px !important;
+	}
+
 
 	#homepage--aboutus h2{
 		font-size:40px;
 	}
 
+	.statInput{
+		width:100% !important;
+	}
 
-
+#contact-page h5{
+	font-size:30px;
+}
 
 
 }
@@ -1502,6 +1747,15 @@ section {
 
 
 @media (max-width: 784px){
+
+	#contact-page h1{
+		font-size:70px;
+	}
+
+
+	#contact-page h5{
+		font-size:26px;
+	}
 
 	.featured-post h4{
 		font-size:30px;
@@ -1541,6 +1795,11 @@ section {
 		margin-bottom:0px
 	}
 
+	.full-screen-menu{
+		margin-left:100px;
+	}
+
+
 	#stat-navigation{
 	position: fixed;
     top: 0;
@@ -1568,11 +1827,20 @@ section {
 	margin:0 auto;
 	margin-left:125px;
 	max-width: 1200px;
+	margin-right:25px;
+	}
+
+	.site-footer{
+		margin-left:100px;
 	}
 
 }
 
 @media (max-width:700px){
+
+	#core-values h3{
+		font-size:30px;
+	}
 
 	.quotesection--hero h2{
 		font-size:27px;
@@ -1596,6 +1864,11 @@ section {
 		font-size:40px;
 	}
 
+	.abouth1{
+		font-size:30px !important;
+	}
+
+
 	#homepage--aboutus h2{
 		font-size:30px;
 	}
@@ -1609,9 +1882,21 @@ section {
 
 @media (max-width:600px){
 
+	#core-values h3{
+		font-size:25px;
+	}
+
 	.featured-post h4{
 		font-size:30px;
 		margin-top:20%;
+	}
+
+	.abouth1{
+		color:black !important;
+	}
+
+	.site-footer h4{
+		font-size:20px;
 	}
 
 	.featured-post .btnContainer{
@@ -1662,6 +1947,12 @@ section {
 
 	.page-wrapper{
 		margin-left:100px;
+		margin-right:initial;
+
+	}
+
+	.site-footer{
+		margin-left:100px;
 	}
 
 	.jumbo-image{
@@ -1679,10 +1970,13 @@ section {
 		}
 
 	.home-page--hero h1{
-		font-size:35px;
+		font-size:32px;
 		color:white;
 	}
 
+	.abouth1{
+		font-size:32px !important;
+	}
 	.quotesection--hero h2{
 		font-size:30px;
 		margin-bottom: 10px;
@@ -1716,6 +2010,13 @@ width: 100%;
 
 
 @media (max-width:525px){
+	.abouth1{
+		font-size:29px !important;
+	}
+
+	#contact-page .stat-btn--black{
+		width:100%;
+	}
 
 		.upcomingEvents--hero{
 			padding-left:20px;
@@ -1726,6 +2027,13 @@ width: 100%;
 		width:75px;
 	}
 
+	.site-footer{
+		margin-left:75px;
+	}
+
+	.full-screen-menu{
+		margin-left:75px;
+	}
 	.page-wrapper{
 		margin-left: 75px;
 	}
@@ -1733,6 +2041,8 @@ width: 100%;
 	.home-page--hero h1{
 		font-size:30px;
 	}
+
+
 
 	#homepage--aboutus h3{
 		font-size:25px;
@@ -1749,6 +2059,10 @@ width: 100%;
 }
 
 @media (max-width:450px){
+
+	.abouth1{
+		font-size:25px !important;
+	}
 
 	.quotesection--hero h2{
 		font-size:25px;
@@ -1787,7 +2101,7 @@ width: 100%;
 		margin-top:19%;
 	}
 
-	.quotesection--hero .jumbo-image{
+	.quotesection--hero .-image{
 		opacity: 1;
 	}
 
@@ -1799,6 +2113,10 @@ width: 100%;
 }
 
 @media (max-width:400px) {
+
+	.aboutheadlinecontainer{
+		margin-top:25% !important;
+	}
 
 	.featured-post .stat-btn--orange {
     background-color: #D87A23;

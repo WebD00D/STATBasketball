@@ -13,8 +13,11 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer page-wrapper" role="contentinfo ">
-
+	<footer id="colophon" class="site-footer" role="contentinfo " style="text-align:center">
+		<hr style="margin-bottom:10px" />
+			<h4>COPYRIGHT &copy; 2016. STAT BASKETBALL, LLC. ALL RIGHTS RESERVED.</h4>
+			<h4><small>TERMS OF SERVICE | PRIVACY POLICY</small></h4>
+		<hr style="margin-top:10px">
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
@@ -29,8 +32,32 @@
 <script>
 $(document).ready(function(){
 
+	$(window).enllax();
 
-$(window).enllax();
+	$("#menu-icon-container a").click(function(e){
+
+		var menuOpen = $(this).attr("data-menuOpen");
+		if ( menuOpen === 'no' ){
+
+			  $("#menu-icon-container a").find('.material-icons').text('close');
+				$("#menu-icon-container a").attr("data-menuOpen", 'yes');
+				$(".full-screen-menu").animate({
+						left:"0"
+				},500);
+
+		} else {
+
+				$("#menu-icon-container a").find('.material-icons').text('menu');
+			  $("#menu-icon-container a").attr("data-menuOpen", 'no');
+				$(".full-screen-menu").animate({
+						left:"-100%"
+				},500);
+		}
+
+
+
+	}) // end menu-icon click
+
 
 
 
