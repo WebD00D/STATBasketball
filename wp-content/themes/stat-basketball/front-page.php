@@ -27,6 +27,7 @@
 									<a href="#" class="btn stat-btn--orange">LEARN MORE <i class="material-icons right">arrow_forward</i></a>
 						</div>
 			</div>
+
 		</div>
 	</div>
 </section>
@@ -125,6 +126,12 @@
 				</div>
 			</div>
 
+
+		</div>
+		<div class="col s12">
+			<div class="col s12" style="margin-top:20px;text-align:right" >
+				<a href="#" class="btn stat-btn--black">VIEW ALL POSTS <i class="material-icons right">arrow_forward</i></a>
+			</div>
 		</div>
 	</div>
 </section>

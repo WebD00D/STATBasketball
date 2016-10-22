@@ -28,7 +28,7 @@
       </div>
   	</div>
   </section>
-  <section id="homepage--header" style="margin-bottom:150px">
+  <section id="homepage--header" class="aboutBlockImage" style="margin-bottom:150px">
   	<div class="row">
   		<div class="col s12">
   			<div class="home-page--hero">
@@ -44,7 +44,7 @@
   		</div>
   	</div>
   </section>
-  <section id="core-values" style="margin-bottom:100px">
+  <section id="core-values">
       <div class="row">
         <div class="col s12" style="margin-bottom:50px">
           <h2>OUR CORE VALUES</h2>
